@@ -1,0 +1,34 @@
+src/*.exe
+src/wisecoin
+src/wisecoind
+src/test_wisecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.wisecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+wisecoin-qt
+Wisecoin-Qt.app
+
+# Unit-tests
+Makefile.test
+wisecoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
