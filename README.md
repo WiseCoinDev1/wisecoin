@@ -1,4 +1,4 @@
-Wisecoin
+
 What is Wisecoin?
 
 Wisecoin is a clone of Litecoin 
